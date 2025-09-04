@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(././hijabi-content-pixie-1405717-2736499.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: rgb(2, 2, 2);
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: larger;
+}
+h1{
+    color: rgb(228, 227, 227);
+    margin-top: 35px;
+    margin-left: 360px;
+}
+.all_{
+    margin-top: 24px;
+    margin-left: 280px;
+    font-size: 20px;
+}
+#task1{
+    margin-bottom: 20px;
+}
+#task2{
+    margin-bottom: 20px;
+}
+ #task3{
+    margin-bottom: 20px;
+    border: solid;
+}
+ #task3{
+    margin-bottom: 20px;
+}
+ #task4{
+    margin-bottom: 20px;
+}
+ #task5{
+    margin-bottom: 20px;
+}
+#task6{
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    margin-right: 50px;
+    color: red;
+}
+button{
+    border-radius: 50px;
+    padding: 10px; 
+}
+.b1{
+    margin-left: 400px;
+    color: rgb(79, 33, 33);
+    border: none;
+    background-color: transparent;
+    border: solid rgb(221, 116, 151);
+}
+.b1:hover{
+    color: rgb(184, 196, 184);
+    background-color: #5b5857;
+    border: none;
+}
+/* Desktop*/
+@media (max-width: 1440px) {
+  .all_{
+    margin-left: 280px;   
+    } 
+}
+/* Tablet*/
+
+@media (max-width: 1024px) { 
+ .all_{
+    margin-left: 200px;
+    color: blue;
+    } 
+  h1{
+    margin-left: 340px;
+    color: cadetblue;
+   }
+ .b1{
+    margin-left: 355px ;
+    }
+}
+/* phones*/
+@media(max-width: 600px){
+  .all_{
+    margin-left: 110px;
+    color: rgb(21, 117, 114);
+    }
+    h1{
+     color: rgb(74, 61, 61);
+     margin-left: 190px;
+    }
+    .b1{
+        margin-left: 200px
+    }
+}
+
+
+
+
+
