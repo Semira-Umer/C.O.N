@@ -6,7 +6,7 @@ function submit() {
 let task={
     name: "semira",
     completed: false,
-    id: r14rty,
+    id: 1,
 }
 console.log(typeof task.name);//string
 console.log(typeof task.completed);//boolean
